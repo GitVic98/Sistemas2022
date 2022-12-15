@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>¡Viaja a DisneyWorld!</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+
+
+#footer {
+  background-color: #777;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+#logo{
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+#background-header{
+    border: 2px solid black;
+  padding: 25px;
+  background: url(img/disney.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#mickey{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header id="background-header">
+  <img src="img/walt.png" id="logo">
+</header>
+
+<section>
+  <nav>
+  
+  </nav>
+  
+  <article id="article">
+    <h1>Walt Disney World® Resort</h1>
+    <p>es el complejo de entretenimiento más visitado del mundo. Ubicado en Lake Buena Vista, Florida, aproximadamente 21 millas (34 km) al suroeste de Orlando, Florida, en Estados Unidos.</p>
+    <p>El complejo cubre un área de 30.080 acres (47,00 km²; 121,7 km²) y comprende cuatro parques temáticos, dos parques acuáticos, 23 sobre el terreno con temas complejos hoteleros (con exclusión de otros ocho que están en el lugar, pero no propiedad de The Walt Disney Company), incluyendo un campamento, dos spas y centros de acondicionamiento físico, cinco campos de golf, y otros lugares de ocio y entretenimiento. Abrió sus puertas el 1 de Octubre de 1971 con sólo el parque temático Magic Kingdom y desde entonces se han añadido diferentes parques temáticos en constante ampliación</p>
+
+  </article>
+</section>
+
+<footer id="footer">
+  <center><p>¡Ven a visitarnos!</p></center>
+  <center><img src="img/mickey.png" id="mickey"></center>
+</footer>
+
+</body>
+</html>
